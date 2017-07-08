@@ -4,6 +4,6 @@ namespace Net.Chdk.Meta.Providers
 {
     public interface ICameraMetaProvider
     {
-        SoftwareCameraInfo GetCamera(string name);
+        CameraInfo GetCamera(string name);
     }
 }

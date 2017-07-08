@@ -47,6 +47,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CameraInfo.cs" />
     <Compile Include="IBootMetaProvider.cs" />
     <Compile Include="IBuildMetaProvider.cs" />
     <Compile Include="ICameraMetaProvider.cs" />
