@@ -2,7 +2,7 @@
 {
     public interface IBootMetaProvider
     {
-        string FileName { get; }
-        int[][] Offsets { get; }
+        string GetFileName(string productName);
+        int[][] GetOffsets(string productName);
     }
 }
