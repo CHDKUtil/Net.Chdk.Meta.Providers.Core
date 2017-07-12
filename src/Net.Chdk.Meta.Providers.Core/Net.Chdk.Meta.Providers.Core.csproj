@@ -37,7 +37,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CameraInfo.cs" />
-    <Compile Include="IBootMetaProvider.cs" />
     <Compile Include="ICameraMetaProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
