@@ -3,5 +3,6 @@
     public interface IProductCameraMetaProvider
     {
         CameraInfo GetCamera(string fileName);
+        string ProductName { get; }
     }
 }

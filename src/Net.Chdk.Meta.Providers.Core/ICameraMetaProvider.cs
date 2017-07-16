@@ -2,6 +2,6 @@
 {
     public interface ICameraMetaProvider
     {
-        CameraInfo GetCamera(string name);
+        CameraInfo GetCamera(string productName, string fileName);
     }
 }
